@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Ask Jono</title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style>
+      a > p{
+        color:#333;
+        font-size: 150%;
+      }
+      p{
+        font-size:80%;
+      }
+      h1{
+          padding-bottom: 40px;
+      }
+
+      </style>
+</head>
+<body style="max-width:30em;margin:auto;background-color:#ffeb3b;padding:1em;">
+  <br>
+  <h1>Ask Jono</h1>
+  <form class="form-horizontal" action="https://formspree.io/jonathonshields@gmail.com" method="POST">
+    <fieldset>
+      <!-- Name input-->
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="name">Name</label>
+        <div class="col-md-9">
+          <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+        </div>
+      </div>
+
+      <!-- Email input-->
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="email">E-mail</label>
+        <div class="col-md-9">
+          <input id="email" name="_replyto" type="text" placeholder="Your email" class="form-control">
+        </div>
+      </div>
+
+      <!-- Message body -->
+      <div class="form-group">
+        <label class="col-md-3 control-label" for="message">Question</label>
+        <div class="col-md-9">
+          <textarea class="form-control" id="message" name="message" placeholder="Please enter your question here..." rows="5"></textarea>
+        </div>
+      </div>
+
+      <!-- Hidden Fields -->
+      <input type="hidden" name="_next" value="//jonoshields.com/thanks" />
+
+      <!-- Form actions -->
+      <div class="form-group">
+        <div class="col-md-12 text-right">
+          <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+        </div>
+      </div>
+    </fieldset>
+    </form>
+</body>
+</html>
